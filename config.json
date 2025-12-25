@@ -1,0 +1,14 @@
+{
+    "scanner_settings": {
+        "max_file_size_mb": 50,
+        "risk_threshold": 70
+    },
+    "phishing_keywords": [
+        "ұтыс", "утыс", "сыйлық", "сыйлык", "акция", 
+        "тегін", "тегин", "теңге", "тенге", "жүлде", 
+        "жулде", "ұттыңыз", "уттыныз", "утып", "ақша", "акша"
+    ],
+    "suspicious_domains": [
+        ".tk", ".xyz", ".ga", ".cf", ".ml", "bit.ly", "tinyurl"
+    ]
+}
