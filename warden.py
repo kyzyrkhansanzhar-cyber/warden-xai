@@ -3,7 +3,8 @@ from analyzer import warden_scan  # analyzer.py-дан функцияны шақ
 from colorama import Fore, Style, init
 
 # Түстерді іске қосу
-init(autoreset=True)
+from database import init_db
+init_db()
 
 def run_backend():
     # Экранды тазалау (тек эстетика үшін)
